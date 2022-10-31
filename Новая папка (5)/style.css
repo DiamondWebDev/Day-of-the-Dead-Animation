@@ -1,0 +1,39 @@
+body {
+  background: #2f2f2f;
+  overflow-x: hidden;
+}
+body #container {
+  width: 100vw;
+  height: 100vh;
+}
+body #container button {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  padding: 10px 25px;
+  margin: 20px auto;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgba(255, 87, 25, 0.3);
+}
+body #container button:hover {
+  background: rgba(255, 87, 25, 0.5);
+}
+body #container svg {
+  height: 85vh;
+  margin: auto;
+  display: block;
+}
+body #container svg path {
+  fill: none;
+  stroke: #FF5719;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+body #container svg path.st1 {
+  stroke-width: 2;
+}
